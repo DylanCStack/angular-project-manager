@@ -1,0 +1,26 @@
+{ "projects": [
+  {
+    "header": "Zach's Project",
+    "description": "A super good project full of hard, impressive things",
+    "subheadings": [
+                    {"title": "Technologies", "text": "Angular, maybe?"},
+                    {"title": "Potential Problems", "text": "Coding is hard"}
+                  ],
+    "signup": {"interested": ["Dylan"], "committed": ["Zach", "Zach's Cats"]},
+    "comments": [
+      {"name": "Dylan", "text": "I'm not actually interested.  Get me out of here."}
+    ]
+  },
+  {
+    "header": "Dylan's Project",
+    "description": "A super hard project full of good, impressing things",
+    "subheadings": [
+                    {"title": "Technologies", "text": "Angular, maybe? Ember(please don't hurt me)?"},
+                    {"title": "Potential Problems", "text": "No one likes ember..."}
+                  ],
+    "signup": {"interested": ["Jay", "Dan", "Ash"], "committed": ["Dylan", "Dylan's stubborn optimism"]},
+    "comments": [
+      {"name": "Matt", "text": "Dude, WTF."}
+    ]
+  }]
+}
