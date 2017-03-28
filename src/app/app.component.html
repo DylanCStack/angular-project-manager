@@ -1,11 +1,11 @@
 
 <div class="container">
   <h1>{{title}}</h1>
-  <new-project></new-project>
   <div id="projects">
     <div class="project" *ngFor="let project of projects">
       <h3>{{project.header}}</h3>
       <p>{{project.description}}</p>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>

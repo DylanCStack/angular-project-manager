@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { NewProjectComponent } from './new-project/new-project.component';
+import { routing } from "./app.routes";
+// import { NewProjectComponent } from './new-project/new-project.component';
 import { DataService } from './data.service';
 declare var firebase: any;
 
@@ -19,11 +20,8 @@ export class AppComponent implements OnInit{
     this.fbGetData();
   }
   fbGetData() {
-
     firebase.database().ref('/projects/').on('child_added', (snapshot) => {
       this.projects.push(snapshot.val())
     })
   }
-
-
 }

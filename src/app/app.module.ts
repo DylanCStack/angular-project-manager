@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NewProjectComponent } from './new-project/new-project.component';
 import { DataService } from './data.service';
+import { routing } from './app.routes';
 
 
 
@@ -17,7 +18,8 @@ import { DataService } from './data.service';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
